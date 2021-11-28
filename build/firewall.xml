@@ -1,4 +1,5 @@
 <target>
+	<build id="firewall" kernel="bzImage" rootfs="yes" distro="alpine" />
         <details name="guest" />
         <size free_space_mb="200" />
 </target>
