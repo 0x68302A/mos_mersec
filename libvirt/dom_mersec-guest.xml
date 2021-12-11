@@ -1,5 +1,5 @@
 <domain type="qemu">
-  <name>mersec-guest</name>
+  <name>mos_mersec-guest</name>
   <memory unit="KiB">2097152</memory>
   <currentMemory unit="KiB">2097152</currentMemory>
   <vcpu placement="static">2</vcpu>
@@ -30,7 +30,7 @@
     <emulator>/usr/bin/qemu-system-x86_64</emulator>
     <disk device="disk" type="file">
       <driver name="qemu" type="qcow2" />
-      <source file="mos_img_dir/mersec-guest.img" />
+      <source file="mos_img_dir/mos_mersec-guest.img" />
       <target bus="ide" dev="hda" />
       <address bus="0" controller="0" target="0" type="drive" unit="0" />
     </disk>
